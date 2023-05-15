@@ -1,0 +1,92 @@
+/*header*/
+
+.header p {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.5rem;
+    letter-spacing: 0.3rem;
+}
+
+.a-container {
+    gap: 1.2rem;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+.header {
+    justify-content: space-between;
+    align-items: center;
+    height: 3.8rem;
+    padding-inline: 20px !important;
+}
+
+.header a:hover {
+    color: var(--accent-color);
+}
+
+/*hero*/
+
+.hero {
+    font-family: poppins;
+    justify-content: center;
+    margin-top: 5.5rem;
+    padding-inline: var(--padding-inline);
+    gap: 12px;
+}
+
+.hero {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.2rem;  
+}
+
+.hero p {
+    font-size: 1rem;    
+}
+
+.hero-twitter {
+    background: linear-gradient(to right, rgb(13, 136, 207), rgb(37, 37, 250));
+    text-align: center;   
+    font-size: 0.9rem;
+    padding: 8px 18px; 
+    border-radius: 13.5px;
+    letter-spacing: 0.1rem;
+    width: fit-content;
+    margin-top: 20px;
+    transition: 0.15s ease-in-out;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.hero-twitter:hover {
+    background: linear-gradient(to left, rgb(12, 127, 194), rgb(34, 34, 230));
+    font-size: 0.92rem; 
+}
+
+.hero-about-me {
+    background: linear-gradient(to right, rgb(255, 0, 43), rgb(10, 10, 255));
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-family: 'Segoe UI', Verdana, sans-serif; 
+    text-transform: uppercase;  
+    font-size: 0.9rem;
+    padding: 8px 18px; 
+    border: none;
+    border-radius: 13.5px;
+    letter-spacing: 0.1rem;
+    width: fit-content;
+    margin-top: 8px;
+    transition: 0.15s ease-in-out;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.hero-about-me:hover {
+    background: linear-gradient(to left, rgba(199, 22, 52, 0.88), rgb(38, 38, 204));
+    font-size: 0.92rem; 
+}
+
