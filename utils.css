@@ -40,3 +40,15 @@ a {
     text-decoration: none;
     font-family: 'Segoe UI', arial;
 }
+
+.note {
+  position: absolute;
+  bottom: 5px;
+  left: 2px;
+  right: 2px;
+  font-size: 0.6rem;
+  width: 80%;
+  color:grey;
+  text-align: center;
+  margin-left: 10%;
+}
